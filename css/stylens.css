@@ -91,3 +91,35 @@
    background-color:#2196F3;
    color: #fff; 
 }
+/*section advantages  */
+.advantages-header {
+    color: #212121;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.advantages-text {
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px
+}
+/* section activity */
+.activity-header {
+    color: #212121;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+/*section team */
