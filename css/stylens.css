@@ -17,7 +17,7 @@
     letter-spacing: 0.78px;
 }
 .logo-black {
-    color: #000;
+    color: #000000;
 }
 /* nav */
 .nav-list-link {
@@ -65,7 +65,7 @@
 /* main */
 /* hero section */
 .hero {
-    /* color: #FFF; */
+    /* color: #ffffff; */
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 44px;
@@ -76,7 +76,7 @@
     text-transform: uppercase;
 }
 .btn-hero {
-    /* color: #FFF; */
+    /* color: #ffffff; */
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -89,7 +89,7 @@
 .btn-hero:hover,
 .btn-hero:focus {
    background-color:#2196F3;
-   color: #fff; 
+   color: #ffffff; 
 }
 /*section advantages  */
 .advantages-header {
@@ -123,3 +123,73 @@
     letter-spacing: 1.08px;
 }
 /*section team */
+.team {
+    background-color:#F5F4FA;
+}
+.surname {
+    color: #212121;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.profession {
+    color: #757575;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+/* footer */
+.footer {
+    background: #2F303A;
+}
+.logo-white {
+    color: #ffffff;
+}
+.maps {
+    color: #ffffff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+.maps:hover,
+.maps:focus {
+    color: #2196F3;
+}
+.mailto {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+.mailto:hover,
+.mmailto:focus {
+    color: #2196F3;
+}
+.tel {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+.tel:hover,
+.tel:focus {
+    color: #2196F3;
+}
