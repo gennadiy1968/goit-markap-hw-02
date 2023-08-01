@@ -192,3 +192,38 @@
 .tel:focus {
     color: var(--accent-color);
 }
+
+/* =======portfolio======= */
+
+.filter-btn{
+    color:var(--primary-color);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.62; /* 187.5% */
+    letter-spacing: 0.48px;
+    cursor:pointer;
+    background-color:var(--basic-color-team)
+}
+.filter-btn:hover,
+.filter-btn:focus {
+   background-color:var(--accent-color);
+   color: var(--third-color); 
+}
+.example-title {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2; /* 200% */
+    letter-spacing: 1.08px;
+}
+.example-description {
+    color: var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.87; /* 187.5% */
+    letter-spacing: 0.48px;
+}
