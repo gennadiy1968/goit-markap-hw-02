@@ -21,9 +21,8 @@
 /* logo */
 .logo {
     color: var(--accent-color);
-    font-family: "Raleway", sans-serif;
+    font-family: var(--secondary-font);
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
@@ -35,7 +34,6 @@
 .nav-list-link {
     color: var(--primary-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
@@ -44,11 +42,18 @@
 .nav-list-link:focus {
     color: var(--accent-color);
 }
-
-.contact-mailto {
+.nav-list-studio {
     color: var(--primary-color);
     font-size: 14px;
-    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    a:visited color:var(--accent-color);
+}
+
+.contact-mailto {
+    color: var(--text-color);
+    font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;   
@@ -59,9 +64,8 @@
 }
 
 .contact-number {
-    color: var(--primary-color);
+    color: var(--text-color);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
@@ -73,31 +77,29 @@
 
 /* main */
 /* hero section */
+.hero-section {
+    background: var(--basic-color-footer);
+}
 .hero {
-    /* color:var(--third-color); */
+    color:var(--third-color); 
     text-align: center;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
     line-height: 1.36; /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
 .btn-hero {
-    /* color:var(--third-color); */
+    color:var(--third-color); 
     text-align: center;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.87; /* 187.5% */
     letter-spacing: 0.96px;
     cursor:pointer;
+    background-color:var(--accent-color);
 }
-.btn-hero:hover,
-.btn-hero:focus {
-   background-color:var(--accent-color);
-   color: var(--third-color); 
-}
+
 /*section advantages  */
 .advantages-header {
     color: var(--primary-color);
