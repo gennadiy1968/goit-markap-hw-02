@@ -39,18 +39,21 @@
     letter-spacing: 0.28px;
 }
 .nav-list-link:hover,
-.nav-list-link:focus {
+
+.nav-list-link:visited {
     color: var(--accent-color);
+
 }
-.nav-list-studio {
+/* .nav-list-studio {
     color: var(--primary-color);
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-    a:visited color:var(--accent-color);
 }
-
+.nav-list-studio:visited {
+    color:var(--accent-color)
+} */
 .contact-mailto {
     color: var(--text-color);
     font-size: 14px;
