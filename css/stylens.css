@@ -31,19 +31,58 @@
     color: #000000;
 }
 /* nav */
-.nav-list-link {
+.nav-list-studio {
     color: var(--primary-color);
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
 }
-.nav-list-link:hover,
-
-.nav-list-link:visited {
+.nav-list-studio:visited {
     color: var(--accent-color);
-
 }
+.nav-list-studio:hover,
+.nav-list-studio:focus {
+    color: var(--accent-color);
+}
+.nav-list-portfolio {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px; 
+}
+.nav-list-portfolio:hover,
+.nav-list-portfolio:focus {
+    color: var(--accent-color);
+}
+.nav-list-contacts {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.nav-list-contacts:hover,
+.nav-list-contacts:focus {
+    color: var(--accent-color);
+}
+/* .nav-list-portfolio:visited {
+    color: var(--accent-color);
+} */
+/* .nav-list-link {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.nav-list-link:hover, */
+
+ /* .nav-list-link:visited {
+    color: var(--accent-color); */
+
+
 /* .nav-list-studio {
     color: var(--primary-color);
     font-size: 14px;
@@ -59,7 +98,8 @@
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.28px;   
+    letter-spacing: 0.28px;
+    font-family:var(--primary-font) ;   
 }
 .contact-mailto:hover,
 .contact-mailto:focus {
@@ -199,6 +239,34 @@
 }
 
 /* =======portfolio======= */
+.nav-list-stud {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.nav-list-studio:visited {
+    color: var(--accent-color);
+}
+.nav-list-stud:hover,
+.nav-list-stud:focus {
+    color: var(--accent-color);
+}
+.nav-list-portfol {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px; 
+}
+.nav-list-portfol:hover,
+.nav-list-portfol:focus {
+    color: var(--accent-color);
+}
+.nav-list-portfol:visited {
+    color: var(--accent-color);
+}
 
 .filter-btn {
     color:var(--primary-color);
